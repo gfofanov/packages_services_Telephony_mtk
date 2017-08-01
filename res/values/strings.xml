@@ -681,9 +681,16 @@
     <string name="multi_category_disable">Multi-category disabled</string>
 
     <string name="network_lte">LTE (recommended)</string>
+    <string name="network_lte_only">LTE only</string>
     <string name="network_4G">4G (recommended)</string>
+    <string name="network_4G_only">4G only</string>
+    <string name="network_4G_auto" translatable="false">4G auto</string>
     <string name="network_3G" translatable="false">3G</string>
+    <string name="network_3G_only" translatable="false">3G only</string>
+    <string name="network_3G_auto" translatable="false">3G auto</string>
+    <string name="network_3G_4G_only" translatable="false">3G/4G only</string>
     <string name="network_2G" translatable="false">2G</string>
+    <string name="network_2G_only" translatable="false">2G only</string>
     <string name="network_1x" translatable="false">1x</string>
     <string name="network_global">Global</string>
 
