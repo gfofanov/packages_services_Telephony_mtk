@@ -848,7 +848,6 @@ public class MobileNetworkSettings extends PreferenceActivity
                 case Phone.NT_MODE_LTE_TDSCDMA_GSM_WCDMA:
                 case Phone.NT_MODE_TDSCDMA_CDMA_EVDO_GSM_WCDMA:
                 case Phone.NT_MODE_LTE_TDSCDMA_CDMA_EVDO_GSM_WCDMA:
-                case Phone.NT_MODE_WCDMA_ONLY:
                 case Phone.NT_MODE_LTE_ONLY:
                 case Phone.NT_MODE_LTE_WCDMA:
                     // This is one of the modes we recognize
