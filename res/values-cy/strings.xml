@@ -37,6 +37,7 @@
   <!-- Toast string displayed to user if the input in MMI dialog is < 1 or > 160 -->
   <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
   <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
+  <string name="ok">Iawn</string>
   <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
   <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
@@ -59,7 +60,7 @@
   <!-- Body text of the "Missing voicemail number" dialog -->
   <!-- Button label on the "Missing voicemail number" dialog -->
   <!--Toast in Call settings when asked to launch voicemail for a guest user -->
-  <string name="voice_number_setting_primary_user_only">Dim ond y prif ddefnyddiwr gall newid y lleisbost ar gyfer gosodiadau galwadau.</string>
+  <string name="voice_number_setting_primary_user_only">Dim ond y prif ddefnyddiwr gall newid y llaisbost ar gyfer gosodiadau galwadau.</string>
   <!-- Status message displayed on SIM PIN unlock panel -->
   <!-- network depersonalization -->
   <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
@@ -183,6 +184,7 @@
          [CHAR LIMIT=NONE] -->
   <!-- Status message displayed in the "Call settings error" dialog -->
   <!-- Button label used to dismiss the "Call settings error" dialog -->
+  <string name="close_dialog">Iawn</string>
   <!-- Button label used in several settings-related dialogs -->
   <!-- Button label used in several settings-related dialogs -->
   <!-- Button label which indicates the user wants to update a stored
@@ -319,6 +321,18 @@
   <!-- Data usage settings screen option for time frame-->
   <!-- Data usage settings screen option for throttling rate-->
   <!-- Data usage settings screen option for accessing the carrier website-->
+  <string name="list_language_title">Iaith</string>
+  <string name="list_language_summary">Dewisa iaith newyddion</string>
+  <string-array name="list_language_entries">
+    <item>Saesneg</item>
+    <item>Ffrangeg</item>
+    <item>Sbaeneg</item>
+    <item>Siapaneeg</item>
+    <item>Coreeg</item>
+    <item>Tsieineeg</item>
+    <item>Hebraeg</item>
+  </string-array>
+  <string name="list_language_dtitle">Ieithoedd</string>
   <!-- CDMA System select strings -->
   <!-- Mobile network settings screen, setting option name -->
   <!-- Mobile network settings screen, setting summary text -->
@@ -348,7 +362,9 @@
   <!-- Voice privacy on CDMA is an added layer of voice encryption. Theoretically, it would be harder to break in to a phone call with this feature enabled. -->
   <!-- TTY Mode change is NOT allowed during a video call -->
   <!-- FDN list screen: menu item label -->
+  <string name="menu_add">Ychwanegu cyswllt</string>
   <!-- FDN list screen: menu item label -->
+  <string name="menu_edit">Golygu\'r cyswllt</string>
   <!-- FDN list screen: menu item label -->
   <!-- FDN related strings -->
   <!-- Label for PIN2 entry screen -->
@@ -556,6 +572,7 @@
   <!-- Title displayed in the overlay when a call is placed using a 3rd party provider.
          [CHAR LIMIT=40] -->
   <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
+  <string name="contactPhoto">llun y cyswllt</string>
   <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
   <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
   <!-- Dialog title to notify user that Voice calling is not supported
@@ -601,7 +618,6 @@
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
   <!-- DO NOT TRANSLATE. Internal key for a visual voicemail preference. -->
   <!-- DO NOT TRANSLATE. Internal key for a voicemail change pin preference. -->
-  <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
   <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
   <!-- Hint appearing below a selected action on the emergency dialer telling user to tap again to execute the action [CHAR LIMIT=NONE] -->
@@ -615,7 +631,7 @@
 Mae gormod o alwadau ar eu canol. Diwedda neu gyfuno rhai o\'r galwadau cyfredol cyn gwneud galwad newydd.
     </string>
   <!-- The title for the change voicemail PIN activity -->
-  <string name="change_pin_title">Newid PIN Lleisbost</string>
+  <string name="change_pin_title">Newid PIN Llaisbost</string>
   <!-- The label for the continue button in change voicemail PIN activity -->
   <string name="change_pin_continue_label">Parhau</string>
   <!-- The label for the cancel button in change voicemail PIN activity -->
@@ -634,7 +650,7 @@ Mae gormod o alwadau ar eu canol. Diwedda neu gyfuno rhai o\'r galwadau cyfredol
   <!-- The error message for th confirm new pin step in change voicemail PIN activity, if the pin doen't match the one previously entered -->
   <string name="change_pin_confirm_pins_dont_match">Dyw\'r ddau PIN ddim yr un fath.</string>
   <!-- The toast to show after the voicemail PIN has been successfully changed -->
-  <string name="change_pin_succeeded">Wedi diweddaru PIN lleisbost</string>
+  <string name="change_pin_succeeded">Wedi diweddaru PIN llaisbost</string>
   <!-- The error message to show if the server reported an error while attempting to change the voicemail PIN -->
   <string name="change_pin_system_error">Methwyd gosod y PIN</string>
 </resources>
